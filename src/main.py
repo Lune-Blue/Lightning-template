@@ -35,6 +35,8 @@ def get_args():
     args = parser.parse_args()
     return args
 
+
+print('aaa')
 ### Learning Rate Finder: Experimental feature
 class FineTuneLearningRateFinder(LearningRateFinder):
     def __init__(self, milestones, *args, **kwargs):
