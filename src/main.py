@@ -24,6 +24,9 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning)   
 
 
+print("aa")
+
+
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', type=str, default='./config/train.yaml')
