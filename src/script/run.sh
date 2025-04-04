@@ -1,1 +1,1 @@
-python /home/lune/nas2/lightning/lightning-template/src/main.py --use_accelerate
+python main.py --use_accelerate
